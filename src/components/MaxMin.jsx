@@ -3,15 +3,15 @@ import Estilos from "./Estilos";
 
 export default ({x, y}) => {
     
-let mensagem;
+let msg;
     
     if (x == y){
-        mensagem = `Valor ${x} e ${y} são iguais`
+        msg = `${x} e ${y} são iguais`
     }else if (x > y){
-        mensagem = `Valor ${x} é MAIOR que o valor ${y}`
+        msg = `${x} é maior que ${y}`
     }else{
-        mensagem = `Valor ${y} é MAIOR que o valor ${x}`
+        msg = `${y} é maior que ${x}`
     }
 
-    return <Text style = {Estilos.text}>{mensagem}</Text>;
+    return <Text style = {Estilos.text}>{msg}</Text>;
 }

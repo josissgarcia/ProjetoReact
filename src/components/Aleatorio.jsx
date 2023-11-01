@@ -7,6 +7,6 @@ export default ({min,max}) =>{
     const aleatorio = parseInt(Math.random() * delta) + min
 
     return (
-        <Text style = {Estilos.text}>Valor aleatorio é: {aleatorio}</Text>
+        <Text style = {Estilos.text}> O valor aleatorio é: {aleatorio}</Text>
         );
 }
