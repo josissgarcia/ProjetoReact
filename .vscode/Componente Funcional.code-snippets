@@ -1,0 +1,17 @@
+{
+	"Componente Funcional": {
+		"scope": "javascript, javascriptreact",
+		"prefix": "compfunc",
+		"body": [
+				"import React from 'react';",
+				"import { View } from 'react-native';",
+				"import Estilos from '../estilos';",
+				"export default props => {",
+				"	return (",
+				"		<View>$1</View>",
+				"	)",
+				"}"
+		],
+		"description": "Log output to console"
+	}
+}

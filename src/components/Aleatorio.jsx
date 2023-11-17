@@ -1,5 +1,6 @@
 import { Text } from "react-native";
 import Estilos from "./Estilos";
+import { Component } from "react";
 
 export default ({min,max}) =>{
     
@@ -10,3 +11,4 @@ export default ({min,max}) =>{
         <Text style = {Estilos.text}> O valor aleatorio é: {aleatorio}</Text>
         );
 }
+

@@ -7,6 +7,11 @@ import Aleatorio from "./src/components/Aleatorio";
 import MaxMin from "./src/components/MaxMin";
 import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
+import ListaProduto from "./componentes/ListaProduto";
+import ListaProduto2 from "./componentes/ListaProduto2";
+import ListaProdutoSection from "./componentes/ListaProdutoSection";
+import Formulario from "./componentes/Formulario";
+import Formulario2 from "./src/components/Formulario2";
 
 export default function App() {
   return (
@@ -22,10 +27,14 @@ export default function App() {
         <MaxMin x={10} y={9}/>
         <MaxMin x={1} y={90}/>
         <MaxMin x={2} y={2}/>
-        <Botao/> */}
-
+        <Botao/>
         <Contador/>
+        <ListaProduto/>
+        <ListaProduto2/>
+        <ListaProdutoSection/> 
+        <Formulario/>*/}
 
+        <Formulario2/>
       </View>
 
   );
